@@ -12,7 +12,7 @@ html {
   width: 100%;
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.445), rgb(0, 0, 0, 0.411)),
-    url("https://www.elosceolastar.com/wp-content/uploads/2019/12/1376-Vzla-Aqui-Banner-del-Bazar-Navideno.jpg")
+    url("https://www.pumahue.cl/temuco/wp-content/uploads/sites/4/2020/12/expo-navidad.gif")
       no-repeat center / cover;
   color: white;
 }
@@ -21,6 +21,7 @@ html {
     color: mix(#fff, red, 50%);
     font-size: calc(1em + 20vw) ;  
     font-weight: 300;
+    width: 85%;
     text-shadow: 
       -0.0075em 0.0075em 0 mix(#fff, red, 94%),
       0.005em 0.005em 0 mix(#fff, red, 60%),
@@ -46,21 +47,71 @@ html {
   position: relative;
   font-size: 1.5rem;
   margin-bottom: 2rem;
+  cursor: default;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  margin: auto;
+  display: block;
+  
+  -webkit-animation: bounce .3s ease infinite alternate;
+  
+  font-family: 'Erica One', cursive;
+  font-size:60px;
+  color: #FFF;
+  text-align: center;
+  line-height: 30px;
+  text-shadow: 0 1px 0 #CCC,
+               0 2px 0 #CCC,
+               0 3px 0 #CCC,
+               0 4px 0 #CCC,
+               0 5px 0 #CCC,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 30px 30px rgba(0, 0, 0, .6);
+}
+/* ANIMATION */
+@-webkit-keyframes bounce {
+  100% {
+    top: -30px;
+    
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 #CCC,
+                 0 7px 0 #CCC,
+                 0 8px 0 #CCC,
+                 0 9px 0 #CCC,
+                 0 30px 30px rgba(0, 0, 0, .3);
+  }
 }
 .container .info p {
   position: relative;
   font-size: 1.2rem;
-  max-width: 60%;
+  color:  rgba(3, 78, 28, 0.815);
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: 'Erica One', cursive;
+  font-size:60px;
+  line-height: 55px;
 }
 .container .info a {
   position: relative;
   text-decoration: none;
   display: inline-block;
-  background-color: #2C5545;
+  background-image:url('https://cdn.pixabay.com/photo/2015/11/05/05/52/christmas-1023733_1280.png');
   border-radius: 4px;
   font-size: 1.8rem;
   padding: 0.5em 2em;
-  color: white;
+  background-position: center;
+  color: #07A6CD;
 }
 @media only screen and (max-width: 768px) {
   html {

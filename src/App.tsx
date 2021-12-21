@@ -7,9 +7,9 @@ function App() {
       <div className="container">
         <div className="info">
           <h1>Expo Navidad 2021</h1>
-          <h2>Encuentra productos, comida,accesorios, los mejores paquetes ,los mejores regalos para toda la familia</h2>
+          <h2>El mejor regalo para este 24 de diciembre</h2>
           <p>
-            El mejor regalo para la familia y los seres queridos en esta temporada Navidña y de Año Nuevo.
+            Los mejores productos con los detalles para toda la familia
           </p>
           <button>
             <a href="https://www.youtube.com/watch?v=nM6y5V7oIuE">

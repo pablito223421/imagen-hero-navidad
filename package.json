@@ -1,7 +1,6 @@
 {
-  "name": "@lcmtrabajoconsultoria/hero-navidad",
+  "name": "@pablito01/hero-navidad",
   "version": "0.0.1",
-  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -10,6 +9,7 @@
     "@types/node": "^16.11.14",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
+    "my-package": "^0.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -47,5 +47,19 @@
   "devDependencies": {
     "typescript": "^4.5.4"
   },
-  "types": "lib/index.d.ts"
+  "types": "lib/index.d.ts",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablito223421/imagen-hero-navidad.git"
+  },
+  "author": "Pablo Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablito223421/imagen-hero-navidad/issues"
+  },
+  "homepage": "https://github.com/pablito223421/imagen-hero-navidad#readme"
 }
